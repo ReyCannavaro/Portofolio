@@ -2,7 +2,7 @@ const educationHistory = [
   {
     id: 1,
     institution: 'SMK Telkom Sidoarjo',
-    degree: 'Jurusan Rekayasa Perangkat Lunak',
+    degree: 'Jurusan Sistem Informasi Jaringan dan Aplikasi',
     graduationYear: '2025',
     details: [
       'Digital Talent Program',
