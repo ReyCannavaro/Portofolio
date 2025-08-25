@@ -1,62 +1,79 @@
-Portofolio
+# Portofolio
+
 Proyek portofolio pribadi yang dibuat menggunakan React dan Tailwind CSS.
 
-Cara Mengkloning dan Menjalankan Proyek
+## Cara Mengkloning dan Menjalankan Proyek
+
 Ikuti langkah-langkah berikut untuk mengkloning repositori ini dan menjalankannya di komputer lokal Anda.
 
-Prasyarat
+### Prasyarat
+
 Sebelum memulai, pastikan Anda telah menginstal yang berikut ini:
 
-Git: Untuk mengkloning repositori.
+* **Git**: Untuk mengkloning repositori.
 
-Node.js: Versi 14 atau lebih baru. Node.js dilengkapi dengan npm (Node Package Manager).
+* **Node.js**: Versi 14 atau lebih baru. Node.js dilengkapi dengan npm (Node Package Manager).
 
-Langkah-langkah
-Kloning Repositori
-Buka terminal atau command prompt Anda dan jalankan perintah berikut untuk mengkloning proyek:
+### Langkah-langkah
 
-git clone https://github.com/ReyCannavaro/rey-portofolio.git
+1. **Kloning Repositori**
+   Buka terminal atau command prompt Anda dan jalankan perintah berikut untuk mengkloning proyek:
 
-(Catatan: Ganti URL dengan URL repositori GitHub Anda yang sebenarnya.)
+   ```bash
+   git clone [https://github.com/ReyCannavaro/rey-portofolio.git](https://github.com/ReyCannavaro/rey-portofolio.git)
+   ```
 
-Masuk ke Direktori Proyek
-Navigasi ke direktori proyek yang baru saja Anda kloning:
+   (Catatan: Ganti URL dengan URL repositori GitHub Anda yang sebenarnya.)
 
-cd rey-portofolio
+2. **Masuk ke Direktori Proyek**
+   Navigasi ke direktori proyek yang baru saja Anda kloning:
 
-Instal Dependensi
-Instal semua pustaka dan dependensi yang diperlukan dengan menjalankan perintah berikut:
+   ```bash
+   cd rey-portofolio
+   ```
 
-npm install
+3. **Instal Dependensi**
+   Instal semua pustaka dan dependensi yang diperlukan dengan menjalankan perintah berikut:
 
-Menjalankan Proyek
-Setelah instalasi selesai, Anda dapat menjalankan proyek dalam mode pengembangan:
+   ```bash
+   npm install
+   ```
 
-npm run dev
+4. **Menjalankan Proyek**
+   Setelah instalasi selesai, Anda dapat menjalankan proyek dalam mode pengembangan:
 
-Ini akan memulai server pengembangan lokal. Proyek biasanya dapat diakses di http://localhost:5173 atau port lain yang disebutkan di terminal.
+   ```bash
+   npm run dev
+   ```
 
-Membuat Build Produksi
-Jika Anda ingin membuat versi produksi dari situs web, jalankan perintah berikut:
+   Ini akan memulai server pengembangan lokal. Proyek biasanya dapat diakses di `http://localhost:5173` atau port lain yang disebutkan di terminal.
 
-npm run build
+5. **Membuat Build Produksi**
+   Jika Anda ingin membuat versi produksi dari situs web, jalankan perintah berikut:
 
-Perintah ini akan membuat folder dist yang berisi semua file statis yang siap untuk di-deploy ke hosting seperti Netlify, Vercel, atau GitHub Pages.
+   ```bash
+   npm run build
+   ```
 
-Teknologi yang Digunakan
-React: Pustaka JavaScript untuk membangun antarmuka pengguna.
+   Perintah ini akan membuat folder `dist` yang berisi semua file statis yang siap untuk di-deploy ke hosting seperti Netlify, Vercel, atau GitHub Pages.
 
-Vite: Tooling frontend modern yang sangat cepat.
+## Teknologi yang Digunakan
 
-Tailwind CSS: Framework CSS utility-first untuk styling yang cepat dan responsif.
+* **React**: Pustaka JavaScript untuk membangun antarmuka pengguna.
 
-Framer Motion: Pustaka untuk animasi.
+* **Vite**: Tooling frontend modern yang sangat cepat.
 
-React Icons: Kumpulan ikon.
+* **Tailwind CSS**: Framework CSS utility-first untuk styling yang cepat dan responsif.
 
-Struktur Proyek
+* **Framer Motion**: Pustaka untuk animasi.
+
+* **React Icons**: Kumpulan ikon.
+
+## Struktur Proyek
+
 Proyek ini memiliki struktur direktori yang terorganisir, termasuk folder untuk komponen, data, dan bagian-bagian.
 
+```
 rey-portofolio/
 ├── public/
 ├── src/
@@ -72,8 +89,10 @@ rey-portofolio/
 ├── index.html
 ├── package.json
 └── README.md
+```
 
-Tentang Penulis
-Nama: Rey Cannavaro
+## Tentang Penulis
 
-GitHub: https://github.com/ReyCannavaro
+* **Nama:** Rey Cannavaro
+
+* **GitHub:** https://github.com/ReyCannavaro
