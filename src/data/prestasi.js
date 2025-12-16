@@ -36,7 +36,7 @@ const prestasiData = [
   },
     {
     id: 6,
-    title: 'Sekretaris Acara Diesnatalis 5 SMK Telkom Sidoarjo',
+    title: 'Sekretaris Kegiatan Diesnatalis 5 SMK Telkom Sidoarjo',
     organizer: 'OSIS SMK Telkom Sidoarjo',
     year: '2024',
     images: '/src/assets/prestasi/prestasi6.jpeg',
@@ -64,10 +64,24 @@ const prestasiData = [
   },
       {
     id: 10,
-    title: '',
-    organizer: '',
-    year: '',
+    title: 'Sekretaris Kegiatan Diesnatalis 6 SMK Telkom Sidoarjo',
+    organizer: 'OSIS',
+    year: '2025',
     images: '/src/assets/prestasi/prestasi10.jpeg',
+  },
+        {
+    id: 11,
+    title: 'Juara 1 Lomba Karya Tulis Ilmiah Tingkat SMA/SMK Nasional',
+    organizer: 'Himpunan Mahasiswa Teknik Elektro Telkom University',
+    year: '2025',
+    images: '/src/assets/prestasi/prestasi11.jpg',
+  },
+        {
+    id: 12,
+    title: 'Pramuka Penegak Garuda Kabupaten Sidoarjo',
+    organizer: 'Kwartir Cabang Sidoarjo',
+    year: '2025',
+    images: '/src/assets/prestasi/prestasi12.jpeg',
   },
 ];
 
